@@ -1,2 +1,4 @@
-# ariseyacht.github.io
-Website for the yacht Arise
+# antoniskp.github.io
+
+This is my personal website.
+Please feel free to commit any changes.
