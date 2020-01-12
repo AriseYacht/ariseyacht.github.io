@@ -21,6 +21,19 @@
   <!-- Theme CSS - Includes Bootstrap -->
   <link href="css/creative.css" rel="stylesheet">
 
+  <script type="text/javascript">
+            width='100%';   // the width of the embedded map in pixels or percentage
+            height='400';   // the height of the embedded map in pixels or percentage
+            border='1';   // the width of the border around the map (zero means no border)
+            shownames='false';  // to display ship names on the map (true or false)
+            latitude='38.6'; // the latitude of the center of the map, in decimal degrees
+            longitude='21';  // the longitude of the center of the map, in decimal degrees
+            zoom='10';   // the zoom level of the map (values between 2 and 17)
+            maptype='1';    // use 0 for Normal Map, 1 for Satellite, 2 for OpenStreetMap
+            trackvessel='0';  // MMSI of a vessel (note: vessel will be displayed only if within range of the system) - overrides "zoom" option
+            fleet='';   // the registered email address of a user-defined fleet (user's default fleet is used)
+          </script>
+
 </head>
 
 
@@ -72,6 +85,8 @@
     </div>
   </header>
 
+
+
   <!-- About Section -->
   <section class="page-section bg-primary" id="about">
     <div class="container">
@@ -87,11 +102,11 @@
         </div>        
       </div>
     </div>
-
-
-
-
   </section>
+
+
+
+
 
   <!-- Services Section -->
   <section class="page-section" id="services">
@@ -319,16 +334,41 @@
       </div>
       <div class="row">
         <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
+          <a href="tel:+36985833515">
           <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
           <div>+30 6985833515</div>
+          </a>
         </div>
         <div class="col-lg-4 mr-auto text-center">
+          <a href="mailto:antoniskp@gmail.com">        
           <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
-          <a class="d-block" href="mailto:antoniskp@gmail.com">antoniskp@gmail.com</a>
+          <div>antoniskp@gmail.com</div>
+          </a>
         </div>
       </div>
     </div>
   </section>
+
+
+<!-- About Section -->
+  <section class="page-section bg-primary" id="">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-3 text-center">
+          <h2 class="text-white mt-0">See live traffic</h2>
+          <hr class="divider light my-4">
+          <p class="text-white-50 mb-4">See live the traffic from marine traffic</p>
+          </div>        
+        <div class="col-lg-9 text-center">
+          
+          
+          <script type="text/javascript" src="http://www.marinetraffic.com/js/embed.js"></script>
+
+        </div>        
+      </div>
+    </div>
+  </section>
+
 
   <!-- Footer -->
   <footer class="bg-light py-5">
